@@ -1,0 +1,8 @@
+Elliptic curves;Goed;Uit te faseren;Onvoldoende
+secp521r1;X;;
+secp384r1;X;;
+secp256r1;X;;
+curve 448;X;;
+curve 25519;X;;
+secp224r1;;X;
+Andere curves;;;X

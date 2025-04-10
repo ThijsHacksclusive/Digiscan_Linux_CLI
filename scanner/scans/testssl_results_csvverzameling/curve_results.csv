@@ -1,0 +1,9 @@
+curve,ip,result
+prime256v1,hacksclusive.com/199.60.103.16,Goed
+secp384r1,hacksclusive.com/199.60.103.16,Goed
+secp521r1,hacksclusive.com/199.60.103.16,Goed
+X25519,hacksclusive.com/199.60.103.16,Goed
+prime256v1,hacksclusive.com/199.60.103.116,Goed
+secp384r1,hacksclusive.com/199.60.103.116,Goed
+secp521r1,hacksclusive.com/199.60.103.116,Goed
+X25519,hacksclusive.com/199.60.103.116,Goed

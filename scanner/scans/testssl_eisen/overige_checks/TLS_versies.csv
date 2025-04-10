@@ -1,0 +1,8 @@
+TLS versie;Goed;Voldoende;Uit te faseren;Onvoldoende
+TLS 1.3;X;;;
+TLS 1.2;;X;;
+TLS 1.1;;;X;
+TLS 1.0;;;X;
+SSL 3.0;;;;X
+SSL 2.0;;;;X
+SSL 1.0;;;;X

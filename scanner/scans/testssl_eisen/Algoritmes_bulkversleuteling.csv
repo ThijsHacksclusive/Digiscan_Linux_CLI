@@ -1,0 +1,13 @@
+Algoritmes voor bulkversleuteling;Goed;Voldoende;Uit te faseren;Onvoldoende
+AES_256_GCM;X;;;
+ChaCha20_Poly1305;X;;;
+AES_128_GCM;X;;;
+AES_256_CBC;;X;;
+AES_128_CBC;;X;;
+3DES_CBC;;;X;
+AES_256_CCM_8;;;;X
+AES_128_CCM_8;;;;X
+IDEA;;;;X
+DES;;;;X
+RC4;;;;X
+NULL;;;;X

@@ -1,0 +1,4 @@
+Lengte RSA-sleuetels;Goed;Voldoende;Onvoldoende
+Minimaal 3072 bit;X;;
+2048 - 3071 bit;;X;
+Minder dan 2048 bit;;;X

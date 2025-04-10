@@ -1,0 +1,10 @@
+Sleuteluitwisseling Algoritmes;Goed;Voldoende;Uit te faseren;Onvoldoende
+ECDHE;X;;;
+DHE;;X;;
+RSA;;;X;
+DHE;;;;X
+ECDH;;;;X
+KRB5;;;;X
+NULL;;;;X
+PSK;;;;X
+SRP;;;;X
