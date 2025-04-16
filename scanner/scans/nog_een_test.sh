@@ -3,10 +3,7 @@
 input_file=$(cat /tmp/latest_testssl_csv)
 output_file="filtered_output.csv"
 
-OS="${2:-unknown}"  # Passed OS from parent script or fallback
-
 echo "Using input: $input_file"
-echo "Running on OS: $OS"
 
 # Define ID keywords: exact matches and prefixes
 declare -a exact_ids=(

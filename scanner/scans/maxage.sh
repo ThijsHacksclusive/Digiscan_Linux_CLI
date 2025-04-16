@@ -3,8 +3,6 @@
 input_file="filtered_output.csv"
 output_file="testssl_results_csvverzameling/cache_control_result.csv"
 
-OS="${2:-unknown}" 
-echo "Running Cache-Control s-maxage check on OS: $OS"
 echo "Input file: $input_file"
 echo "Output file: $output_file"
 

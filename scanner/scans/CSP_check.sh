@@ -3,8 +3,6 @@
 csv_file="filtered_output.csv"
 output_file="testssl_results_csvverzameling/CSP_findings.csv"
 
-OS="${2:-unknown}"  # Passed OS or fallback
-echo "Running CSP check on OS: $OS"
 echo "Reading from: $csv_file"
 echo "Writing to: $output_file"
 

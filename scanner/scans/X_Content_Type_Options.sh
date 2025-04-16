@@ -3,8 +3,6 @@
 input_file="filtered_output.csv"
 output_file="testssl_results_csvverzameling/x_content_type_options_results.csv"
 
-OS="${2:-unknown}"  # Optional OS passthrough
-echo "Running X-Content-Type-Options check on OS: $OS"
 echo "Input file: $input_file"
 echo "Output file: $output_file"
 

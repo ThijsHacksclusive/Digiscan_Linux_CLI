@@ -4,8 +4,6 @@ input_file="filtered_output.csv"
 check_file="testssl_eisen/Finite_field_groepen.csv"
 output_file="testssl_results_csvverzameling/dh_results.csv"
 
-OS="${2:-unknown}"  # Optional OS argument
-echo "Running finite field group check on OS: $OS"
 echo "Input file: $input_file"
 echo "Output file: $output_file"
 

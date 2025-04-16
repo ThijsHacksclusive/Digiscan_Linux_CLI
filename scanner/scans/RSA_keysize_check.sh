@@ -3,8 +3,6 @@
 input_file="filtered_output.csv"
 output_file="testssl_results_csvverzameling/cert_keysize_results.csv"
 
-OS="${2:-unknown}"  # Optional OS argument
-echo "Running RSA key size check on OS: $OS"
 echo "Input file: $input_file"
 echo "Output file: $output_file"
 

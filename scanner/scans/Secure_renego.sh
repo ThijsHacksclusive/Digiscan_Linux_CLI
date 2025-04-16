@@ -4,8 +4,6 @@ input_file="filtered_output.csv"
 output_file_serego="testssl_results_csvverzameling/Secure_renego_results.csv"
 output_file_seclrego="testssl_results_csvverzameling/Secure_client_renego_results.csv"
 
-OS="${2:-unknown}"  # Optional OS passthrough
-echo "Running Secure Renegotiation checks on OS: $OS"
 echo "Input file: $input_file"
 echo "Output files: $output_file_serego and $output_file_seclrego"
 

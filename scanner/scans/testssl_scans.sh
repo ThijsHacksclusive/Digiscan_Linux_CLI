@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 website_url="$1"
-OS="${3:-unknown}"  # Get passed OS type or fall back
 
 base_name=$(echo "$website_url" | sed 's|https\?://||' | sed 's|/|_|g')
 

@@ -3,8 +3,6 @@
 input_file="filtered_output.csv"
 output_file="testssl_results_csvverzameling/ocsp_stapling_results.csv"
 
-OS="${2:-unknown}"  # Optional OS passthrough
-echo "Running OCSP stapling check on OS: $OS"
 echo "Input file: $input_file"
 echo "Output file: $output_file"
 

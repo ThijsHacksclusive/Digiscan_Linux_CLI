@@ -4,8 +4,6 @@ input_file="filtered_output.csv"
 check_file="testssl_eisen/Elliptic_curves.csv"
 output_file="testssl_results_csvverzameling/curve_results.csv"
 
-OS="${2:-unknown}"  # Optional second argument for OS type
-echo "Running curve test on OS: $OS"
 echo "Input file: $input_file"
 echo "Output file: $output_file"
 

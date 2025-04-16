@@ -1,24 +1,5 @@
 #!/usr/bin/env bash
 
-detect_os() {
-    unameOut="$(uname -s)"
-    case "${unameOut}" in
-        Linux*)
-            if grep -qEi "(Microsoft|WSL)" /proc/version &> /dev/null; then
-                os_type="wsl"
-            else
-                os_type="linux"
-            fi
-            ;;
-        Darwin*)
-            os_type="macos"
-            ;;
-        *)
-            os_type="unknown"
-            ;;
-    esac
-}
-
 # Function to process website URL
 process_website() {
     website_url=$1
@@ -28,19 +9,19 @@ process_website() {
     for choice in "${choices_array[@]}"; do
         case $choice in
             1) echo "- Option 1 (Executing external script...)"
-               bash ./test.sh "$website_url" 1 "$os_type"
+               bash ./test.sh "$website_url" 1 
                ;;
             2) echo "- Option 2  (Executing external script...)"
-               bash ./test.sh "$website_url" 2 "$os_type"
+               bash ./test.sh "$website_url" 2 
                ;;
             3) echo "- Option 3 (Executing external script...)"
-               bash ./test.sh "$website_url" 3 "$os_type"
+               bash ./test.sh "$website_url" 3 
                ;;
             4) echo "- Option 4 (Executing external script...)"
-               bash ./test.sh "$website_url" 4 "$os_type"
+               bash ./test.sh "$website_url" 4 
                ;;
             5) echo "- Option 5 (Executing external script...)"
-               bash ./test.sh "$website_url" 5 "$os_type"
+               bash ./test.sh "$website_url" 5 
                ;;
             *) echo "Invalid choice: $choice"
                ;;
@@ -50,8 +31,6 @@ process_website() {
 
 # --- Main Program ---
 
-detect_os
-echo "Detected OS: $os_type"
 
 echo "Select options (separate multiple choices with spaces):"
 echo "1) HTTP Methods (Runs external script)"
@@ -68,7 +47,7 @@ choices_array=($choices)
 # Handle Option 6 (no website required)
 if [[ " ${choices_array[*]} " == *" 6 "* ]]; then
     echo "- Option 6 (Executing external script...)"
-    bash ./test.sh "https://dummy.url" 6 "$os_type"
+    bash ./test.sh "https://dummy.url" 6 
 
     # Remove 6 from the choices_array
     new_choices_array=()
