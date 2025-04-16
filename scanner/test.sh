@@ -2,7 +2,7 @@
 
 website_url="$1"
 scan_type="$2"
-
+tmux
 case $scan_type in
     1)
         # Open new tmux windows for each scan command
